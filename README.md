@@ -1,4 +1,4 @@
-### Hi there 👋 I'm Alex!
+<h3 align="center"><img src = ""> Hello! I'm Alex</h3>
 
 ---
 
