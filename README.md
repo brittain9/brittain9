@@ -4,7 +4,7 @@
 
     namespace Welcome
     {
-        public class Person
+        public class Alex
         {
             public string m_UserName;
             public string m_Name;
@@ -13,14 +13,14 @@
             public string m_Major;
             public string[]? m_Interests;
 
-            public Person(string userName, string name, int age, string school, string major, string[]? interests)
+            public Alex()
             {
-                m_UserName = userName;
-                m_Name = name;
-                m_Age = age;
-                m_School = school;
-                m_Major = major;
-                m_Interests ??= interests;
+                m_UserName = "brittain9";
+                m_Name = "Alexander Brittain";
+                m_Age = 21;
+                m_School = "University of Texas at Austin";
+                m_Major = "Management Information Systems";
+                m_Interests ??= (new string[] { "CSharp", ".NET", "Computer Science", "Foodie" });
             }
 
             public override string ToString()
@@ -43,13 +43,8 @@
         {
             public static void Main()
             {
-                Person A = new Person(
-                    "brittain9", "Alexander Brittain", 21,
-                    "University of Texas at Austin", "Management Information Systems",
-                    (new string[]{"CSharp", ".NET", "Computer Science","Foodie"})
-                );
-
-                Console.WriteLine(A);
+                Alex a = new Alex();
+                Console.WriteLine(a);
             }
         }
     }
