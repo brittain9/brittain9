@@ -1,5 +1,5 @@
 <!-- Heading -->
-<h3 align="center">Hello! I'm Alex. Welcome to my Github</h3>
+<h3 align="center">Hello! I'm Alex</h3>
 <h3 align="center"><a href="https://twitter.com/acb935">Twitter</a>
 <h3 align="center"><img src = https://github.com/brittain9/brittain9/blob/main/computer.gif width=75px></h3>
 
