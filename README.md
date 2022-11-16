@@ -4,9 +4,14 @@
 Hello! I'm Alex
 </div>
     
-<div align="left">
+<h3 align="left">
+:collision:
 <a href="https://twitter.com/acb935">Twitter</a>
-</div>
+&nbsp
+&nbsp
+&nbsp
+:email:
+<a href = "mailto: alexbrittain9@gmail.com">Email</a>
 </h3>
 
 ---
