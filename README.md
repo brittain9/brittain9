@@ -20,34 +20,30 @@ Hello! I'm Alex
     {
         public class Alex
         {
-            #region Properties
-
-            public string m_UserName;
-            public string m_Name;
-            public int m_Age;
-            public string m_School;
-            public string m_Major;
-            public string[]? m_Interests;
-
-            #endregion
+            public string UserName;
+            public string Name;
+            public int Age;
+            public string School;
+            public string Major;
+            public string[]? Interests;
 
             public Alex()
             {
-                m_UserName = "brittain9";
-                m_Name = "Alexander Brittain";
-                m_Age = 21;
-                m_School = "University of Texas at Austin";
-                m_Major = "Management Information Systems";
-                m_Interests ??= (new string[] { "CSharp", ".NET", "Computer Science", "Foodie" });
+                UserName = "brittain9";
+                Name = "Alexander Brittain";
+                Age = 21;
+                School = "University of Texas at Austin";
+                Major = "Management Information Systems";
+                Interests ??= (new string[] { "CSharp", ".NET", "Computer Science", "Foodie", "Problem-Solving" });
             }
 
             public override string ToString()
             {
-                string ret = $"Hello! My name is {m_Name}. I am a {m_Age} year old {m_Major} major at {m_School}.\n";
-                if (m_Interests != null)
+                string ret = $"Hello! My name is {Name}. I am a {Age} year old {Major} major at {School}.\n";
+                if (Interests != null)
                 {
                     ret += "\nMy interests include:\n";
-                    foreach (var interest in m_Interests)
+                    foreach (var interest in Interests)
                     {
                         ret += $" - {interest}\n";
                     }
