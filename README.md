@@ -55,7 +55,7 @@ Hello! I'm Alex
                         ret += $" - {interest}\n";
                     }
                 }
-                ret += "\nCheck out my website and feel free to contact me by email or Twitter.";
+                ret += "\nCheck out my website and feel free to reach out on LinkedIn or my email.";
                 return ret;
             }
 
