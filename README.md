@@ -7,8 +7,18 @@ Hello! I'm Alex
 <h3 align="left">
     
 <!-- <a href="https://twitter.com/acb935">Twitter</a> -->
-:email:
+
+
+<p>
+📧
 <a href = "mailto: alexbrittain9@gmail.com">Email</a>
+&nbsp
+&nbsp
+&nbsp
+🤝
+<a href = "https://www.linkedin.com/in/alexander-brittain-b07369206">LinkedIn</a>
+</p>
+
 </h3>
 
 ---
