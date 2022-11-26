@@ -5,13 +5,8 @@ Hello! I'm Alex
 </div>
     
 <h3 align="left">
-:collision:
     
 <!-- <a href="https://twitter.com/acb935">Twitter</a> -->
-
-&nbsp
-&nbsp
-&nbsp
 :email:
 <a href = "mailto: alexbrittain9@gmail.com">Email</a>
 </h3>
