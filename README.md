@@ -1,4 +1,4 @@
-<!-- Heading -->
+
 <h3 align="center">
 <div>
 Hello! I'm Alex
@@ -6,7 +6,9 @@ Hello! I'm Alex
     
 <h3 align="left">
 :collision:
-<a href="https://twitter.com/acb935">Twitter</a>
+    
+<!-- <a href="https://twitter.com/acb935">Twitter</a> -->
+
 &nbsp
 &nbsp
 &nbsp
