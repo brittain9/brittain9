@@ -25,7 +25,7 @@ Hello! I'm Alex
 
     namespace Welcome
     {
-        public class Alex
+        sealed class Alex
         {
             public string UserName;
             public string Name;
@@ -41,22 +41,23 @@ Hello! I'm Alex
                 Age = 21;
                 School = "University of Texas at Austin";
                 Major = "Management Information Systems";
-                Interests ??= (new string[] { "CSharp", ".NET", "Computer Science", "Foodie", "Problem-Solving" });
+                Interests ??= (new string[]
+                    { "C#", "Electricity", "Building things myself", "Sushi", "Elegant code", "Construction" });
             }
 
             public override string ToString()
             {
-                string ret = $"Hello! My name is {Name}. I am a {Age} year old {Major} major at {School}.\n";
+                string str = $"Hello! My name is {Name}.\nI am a {Age} year old {Major} major at {School}.\n";
                 if (Interests != null)
                 {
-                    ret += "\nMy interests include:\n";
+                    str += "\nMy interests include:\n";
                     foreach (var interest in Interests)
                     {
-                        ret += $" - {interest}\n";
+                        str += $" - {interest}\n";
                     }
                 }
-                ret += "\nCheck out my website and feel free to reach out on LinkedIn or my email.";
-                return ret;
+                str += "\nCheck out my website and feel free to reach out on LinkedIn or my email.";
+                return str;
             }
 
             public static void Main()
